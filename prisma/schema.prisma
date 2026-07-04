@@ -225,7 +225,7 @@ model Listing {
   automaticData AutomaticDeliveryData?
   status      ListingStatus @default(DRAFT)
   views       Int         @default(0)
-  favorites   Int         @default(0)
+  favoritesCount Int      @default(0)
   isBoosted   Boolean     @default(false)
   boostedAt   DateTime?
   lastBoostedAt DateTime?
